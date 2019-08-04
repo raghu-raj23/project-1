@@ -1,0 +1,64 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./back1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: solid transparent;
+    transition: 0.6s ease;
+}
+nav ul li {
+    display: inline;
+}
+nav{
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 34px;
+    
+}
+.a1{
+    background-color: white;
+    color: black;
+}
+.heading h1{
+    color: white;
+}
+.buttons{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%,-60%);
+       
+}
+buttons a{
+    padding: 20px;
+}
+.btn{
+    border: 2px solid white;    
+    padding:10px 30px;
+    text-decoration: none;
+    color: white;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
